@@ -133,5 +133,5 @@ void eclic_mtip_handler(void) {
 // delay for a_ms milliseconds
 void delay_ms( uint32_t a_ms ) {
   uint32_t a_from = g_milliseconds;
-  while ( ((uint32_t)(g_milliseconds - a_from)) < a_ms ) {}
+  while ( ((uint32_t)(g_milliseconds - a_from)) < a_ms ) {__WFI();}
 }
