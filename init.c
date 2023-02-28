@@ -76,7 +76,7 @@ void startup_code(void) {
   if ( !v_found ) {
     // oh, make CK_SYS == HXTAL freq
     v_div = 2;
-    v_mul = 1;
+    v_mul = 2;
   } else {
     SystemCoreClock = CK_SYS_VALUE;
   }
