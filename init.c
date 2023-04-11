@@ -1,7 +1,7 @@
 #include "n200_func.h"
 #include "gd32vf103.h"
 
-#include <inttypes.h>
+#include <stdint.h>
 
 
 void loop_int_handler(void);

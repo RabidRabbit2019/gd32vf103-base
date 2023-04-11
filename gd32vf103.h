@@ -3,7 +3,7 @@
 
 #include "riscv_encoding.h"
 
-#include <inttypes.h>
+#include <stdint.h>
 
 
 /*!

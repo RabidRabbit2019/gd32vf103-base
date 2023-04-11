@@ -7,7 +7,7 @@
 #include "n200_timer.h"
 #include "n200_eclic.h"
 
-#include <inttypes.h>
+#include <stdint.h>
 
 #define	ECLIC_GROUP_LEVEL0_PRIO4        0
 #define	ECLIC_GROUP_LEVEL1_PRIO3        1

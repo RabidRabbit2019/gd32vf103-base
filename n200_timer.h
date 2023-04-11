@@ -3,7 +3,7 @@
 #ifndef N200_TIMER_H
 #define N200_TIMER_H
 
-#include <inttypes.h>
+#include <stdint.h>
 
 #define TIMER_MSIP 0xFFC
 #define TIMER_MSIP_size   0x4
