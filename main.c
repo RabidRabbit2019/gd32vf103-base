@@ -22,22 +22,22 @@ void main() {
   GPIO_BOP(GPIOA) |= (GPIO_BOP_BOP1 | GPIO_BOP_BOP2);
   // loop
   for (;;) {
-    delay_ms(500);
+    delay_ms(250);
     // set 0 for PC13 (R led ON)
     GPIO_BOP(GPIOC) |= GPIO_BOP_CR13;
-    delay_ms(500);
+    delay_ms(250);
     // set 1 for PC13 (R led OFF)
     GPIO_BOP(GPIOC) |= GPIO_BOP_BOP13;
-    delay_ms(500);
+    delay_ms(250);
     // set 0 for PA1 (G led ON)
     GPIO_BOP(GPIOA) |= GPIO_BOP_CR1;
-    delay_ms(500);
+    delay_ms(250);
     // set 1 for PA1 (G led OFF)
     GPIO_BOP(GPIOA) |= GPIO_BOP_BOP1;
-    delay_ms(500);
+    delay_ms(250);
     // set 0 for PA2 (B led ON)
     GPIO_BOP(GPIOA) |= GPIO_BOP_CR2;
-    delay_ms(500);
+    delay_ms(250);
     // set 1 for PA2 (B led OFF)
     GPIO_BOP(GPIOA) |= GPIO_BOP_BOP2;
   }
