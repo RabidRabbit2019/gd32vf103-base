@@ -1,4 +1,4 @@
-TOOLS=/home/vzaytsev/tools/riscv-gcc/bin/
+TOOLS=/opt/riscv/bin/
 
 all: lib/libc.a lib/libm.a
 
